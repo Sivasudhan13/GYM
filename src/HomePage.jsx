@@ -1,12 +1,13 @@
 import React, { useState } from "react";
-import Navbar from "./components/NavBar";
+
 import ProductPage from "./pages/ProductPage";
 import CarouselComponent from "./pages/CarouselComponent";
+import NavBar from "./components/NavBar";
 
 const HomePage = () => {
   return (
     <div>
-      <Navbar />
+      <NavBar />
       <CarouselComponent />
       <ProductPage />
     </div>

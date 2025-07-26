@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FiSearch, FiHeart, FiShoppingCart, FiMenu, FiX } from "react-icons/fi";
 import { Link } from "react-router-dom";
 
-const Navbar = () => {
+const NavBar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
@@ -77,4 +77,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavBar;
