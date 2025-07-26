@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import ProductPage from "./pages/ProductPage";
-import CarouselComponent from "./pages/CarouselComponent.jsx";
+import CarouselComponent from "./pages/CarouselComponent";
 import Navbar from "./components/NavBar";
 
 const HomePage = () => {
