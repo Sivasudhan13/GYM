@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import HomePage from "./HomePage";
-import { data } from "./Data/dataset";
+import dataset from "./data/dataset.js";
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import { CardContext } from "./contexts/CardContext";
