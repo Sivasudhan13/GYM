@@ -1,15 +1,15 @@
 import React, { useState } from "react";
 
 import ProductPage from "./pages/ProductPage";
-import CarouselComponent from "./pages/CarouselComponent";
 
 import Navbar from "./components/NavBar";
+import CarouselPage from "./pages/CarouselPage";
 
 const HomePage = () => {
   return (
     <div>
       <Navbar />
-      <CarouselComponent />
+      <CarouselPage />
       <ProductPage />
     </div>
   );

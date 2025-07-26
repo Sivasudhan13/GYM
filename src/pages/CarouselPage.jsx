@@ -1,9 +1,8 @@
-// CarouselComponent.js
 import React from "react";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // Required CSS
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 
-const CarouselComponent = () => {
+const CarouselPage = () => {
   return (
     <div className="h-500px">
       <div className="max-w-[800px]  mx-auto   mt-8  ">
@@ -42,4 +41,4 @@ const CarouselComponent = () => {
   );
 };
 
-export default CarouselComponent;
+export default CarouselPage;
