@@ -30,7 +30,11 @@ const NavBar = () => {
             <FiSearch className="text-xl ml-2" />
           </div>
           <FiHeart className="text-2xl cursor-pointer" />
-          <FiShoppingCart className="text-2xl cursor-pointer" />
+          <div>
+            <Link to="/Add">
+              <FiShoppingCart className="cursor-pointer" />
+            </Link>
+          </div>
         </div>
 
         {/* Mobile Menu Button */}
